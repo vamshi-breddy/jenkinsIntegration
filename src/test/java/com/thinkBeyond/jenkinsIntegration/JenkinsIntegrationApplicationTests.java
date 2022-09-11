@@ -15,6 +15,7 @@ class JenkinsIntegrationApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Test case executed");
+		logger.info("Test case executing second time");
 		assertEquals(true, true);
 	}
 
